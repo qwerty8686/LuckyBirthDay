@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+.center {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.position {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.card {
+  border: 2px solid black;
+  padding: 2%;
+  border-radius: 2rem;
+}
+.input {
+  border-radius: 0.3rem;
+  height: 2rem;
+  border-color: cornflowerblue;
+  width: 80%;
+}
+.button {
+  background: transparent;
+  border: 3px solid black;
+  font-size: medium;
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  margin-bottom: 1rem;
+}
+button:hover {
+  background-color: rgb(96, 127, 180);
+  color: white;
+}
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background: linear-gradient(rgba(82, 221, 27, 0.39), rgb(230, 189, 216))
+    center fixed;
+
+  background-size: cover;
+}
+body:hover {
+  background: linear-gradient(rgb(233, 176, 214), rgba(82, 221, 27, 0.39))
+    center fixed;
+}
+a {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+img {
+  width: 8%;
+  height: 8%;
+}
