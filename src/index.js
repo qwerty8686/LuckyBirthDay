@@ -17,8 +17,12 @@ function calculateSum(DOB) {
   for (var i = 0; i < DOB.length; i++) {
     sum = sum + Number(DOB.charAt(i));
   }
+  if (luckyNumber.value === "") {
+    message.innerText = "";
+    return;
+  }
   if (luckyNumber.value <= 0) {
-    message.innerText = "Lucky Number can't be less than 0";
+    message.innerText = "Lucky Number can't be less than or equal to 0";
     return;
   }
   if (sum % luckyNumber.value === 0) {
